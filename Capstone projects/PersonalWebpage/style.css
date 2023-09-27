@@ -1,0 +1,53 @@
+.gradient-background {
+    background: linear-gradient(300deg,#DDDDDD,#222831);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.primary-background{
+    background-color: #F8F6F4 !important;
+}
+
+.primary-text{
+    color: #27374D !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secondary-text{
+    color: #C4DFDF !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tertiary-text{
+  color: #F8F6F4 !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+.secondary-background{
+    background-color: #E3F4F4 !important;
+}
+
+.tertiary-background{
+  background-color: #27374D !important;
+}
+
+
+#hero{
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

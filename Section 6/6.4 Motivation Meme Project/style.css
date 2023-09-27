@@ -1,0 +1,23 @@
+h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+
+img{
+    border: 5px white solid;
+    width:100%;
+}
+
+div{
+    margin-top: 25%;
+    width:50%;
+    margin-left: 25%;
+    font-family: 'Libre Baskerville', serif;
+    color:white;
+    text-align: center;
+}
